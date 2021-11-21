@@ -11,6 +11,14 @@ const routes: Routes = [
     redirectTo: 'home',
     pathMatch: 'full'
   },
+  {
+    path: 'tortilla-patata',
+    loadChildren: () => import('./pages/tortilla-patata/tortilla-patata.module').then( m => m.TortillaPatataPageModule)
+  },
+  {
+    path: 'gazpacho-andaluz',
+    loadChildren: () => import('./pages/gazpacho-andaluz/gazpacho-andaluz.module').then( m => m.GazpachoAndaluzPageModule)
+  },
 ];
 
 @NgModule({
