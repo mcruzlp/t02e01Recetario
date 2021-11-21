@@ -1,0 +1,7 @@
+{
+  "name": "t02e01Recetario",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
